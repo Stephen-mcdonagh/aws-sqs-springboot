@@ -1,4 +1,4 @@
-# java-springboot-microservices
+# java-springboot-aws-sqs
 
 Created a sample Springboot project which sends messages to AWS SQS and a consumer which takes in the contents of the Queue
 
