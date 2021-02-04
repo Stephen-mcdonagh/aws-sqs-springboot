@@ -1,0 +1,13 @@
+server:
+  port: 9091
+
+cloud:
+  aws:
+    region:
+      static: us-east-2
+      auto: false
+    credentials:
+      access-key: <add-your-access-key-here>
+      secret-key: <add-your-secret-key-here>
+    end-point:
+      uri: https://sqs.eu-west-1.amazonaws.com/252819530464/springboot-test-queue
